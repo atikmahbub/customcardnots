@@ -79,3 +79,20 @@
     color: #000000;
     background-color: #EFE436;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .contact-container{
+        margin-top: 30%;
+        padding: 30px !important;
+    }
+    .outro{
+        padding: 0px;
+    }
+    .social-div{
+        justify-content: center !important;
+    }
+    .contact-header{
+        margin-bottom: 10%;
+    }
+}

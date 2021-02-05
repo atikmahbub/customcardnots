@@ -33,7 +33,6 @@
 
 .faq-left{
     margin-top: 7px;
-    
 }
 
 .faq-right{
@@ -50,7 +49,6 @@
 
 .faq-question span{
     font-size: 1.6rem;
-
 }
 
 .q-text{
@@ -74,4 +72,11 @@
     margin-right: 5px;
     font-size: 1.5rem !important;
     font-weight: 900;
+  }
+
+  @media only screen and (max-width: 768px) {
+      .faq-conatiner{
+          margin-top: 30%;
+          padding: 30px !important;
+      }
   }

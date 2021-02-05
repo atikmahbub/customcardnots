@@ -3,3 +3,12 @@
     margin-top: 10%;
 }
 
+@media only screen and (max-width: 768px) {
+    .order-container{
+        margin-top: 30%;
+        padding: 5px !important;
+    }
+    .order-container .col-md-7{
+        padding-right: 0px !important;
+    }
+}

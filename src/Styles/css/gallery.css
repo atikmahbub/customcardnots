@@ -62,3 +62,12 @@
     }
   }
   
+  @media only screen and (max-width: 768px) {
+    .gallery-container{
+      margin-top: 30%;
+      padding: 20px !important;
+    }
+    .gallery-header{
+      margin-bottom: 20% !important;
+    }
+}

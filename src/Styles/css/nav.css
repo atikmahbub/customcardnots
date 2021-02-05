@@ -122,3 +122,14 @@
 }
 
 
+
+
+
+@media only screen and (max-width: 768px) {
+  .bm-burger-button{
+    right: 5px !important;
+  }
+  .logo-image{
+    margin-left: 0px !important;
+  }
+}

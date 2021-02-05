@@ -11,12 +11,12 @@ function Work() {
             <div className="col-md-7 work-right">
 
                 {
-                    workData.map((item: any , index : number)=>(
+                    workData.map((item , index )=>(
                         <div className="work-number">
                             { "0"+(index+1)}
                             <span className="work-content-header">{item.title}</span>
                             {
-                                item.option?.map((innerItem:any)=>(
+                                item.option?.map((innerItem)=>(
                                     <span className="work-subtitle">{innerItem.subtitle}</span>
                                 ))
                             }

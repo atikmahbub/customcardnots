@@ -67,3 +67,26 @@
     margin-left: 30px;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 768px) {
+    .work-container{
+        margin-top: 30%;
+        padding : 25px !important;
+    }
+    .work-header{
+        margin-bottom: 25%;
+    }
+    .work-number{
+        margin-bottom: 20px;
+        font-size: 7rem;
+    }
+    .work-content-header{
+        bottom: 40px;
+        width: 100%;
+    }
+    .work-subtitle{
+        width: 100%;
+        bottom: -30%;
+        padding-right: 10px;
+    }
+}

@@ -14,12 +14,14 @@ function Work() {
                     workData.map((item , index )=>(
                         <div className="work-number">
                             { "0"+(index+1)}
+                            <div className="work-item">
                             <span className="work-content-header">{item.title}</span>
                             {
                                 item.option?.map((innerItem)=>(
                                     <span className="work-subtitle">{innerItem.subtitle}</span>
                                 ))
                             }
+                            </div>
                         </div>
                     ))
                 }

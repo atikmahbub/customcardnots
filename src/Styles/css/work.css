@@ -1,6 +1,7 @@
 .work-container{
     padding: 40px;
     margin-top: 10%;
+    margin-bottom: 30px;
 }
 
 .work-header{
@@ -44,50 +45,45 @@
     font-weight: 900;
     color: #151516;
     position: relative;
-    bottom: 40px;
     margin: 0;
+}
+
+.work-item{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 45%;
+    left: 10%;
 }
 
 .work-content-header{
     font-size: 1.5rem;
-    position: absolute;
-    bottom: 40%;
-    left: 15%;
     color: #EFE436;
     text-transform: uppercase;
+
 }
 
 .work-subtitle{
     font-size: 1rem;
-    position: absolute;
-    bottom: 15%;
-    left: 15%;
     color: #ffffff;
     width: 80%;
     margin-left: 30px;
     font-weight: 400;
 }
 
+
 @media only screen and (max-width: 768px) {
     .work-container{
         margin-top: 30%;
         padding : 25px !important;
-    }
-    .work-header{
-        margin-bottom: 25%;
+        margin-bottom: 30px !important;
     }
     .work-number{
-        margin-bottom: 20px;
-        font-size: 7rem;
+        font-size: 8rem;
     }
-    .work-content-header{
-        bottom: 40px;
-        width: 90%;
+    .work-header{
+        margin-bottom: 30px;
+        margin-left: 10px;
     }
-    .work-subtitle{
-        width: 90%;
-        bottom: -28%;
-        padding-right: 10px;
-        text-align: justify;
-    }
+
 }

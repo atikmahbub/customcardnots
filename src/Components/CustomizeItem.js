@@ -9,8 +9,8 @@ function CustomizeItem({getValue, customText , textSize , customImage, customIma
         customText : customText || "",
         textSize : textSize || 20,
         logo: customImage || null,
-        logoWidth : customImageWidth || 20,
-        logoHeight : customImageHeight || 20,
+        logoWidth : customImageWidth || 60,
+        logoHeight : customImageHeight || 60,
     })
 
     const [imageContol,setImageControl] = useState(false)
@@ -94,12 +94,12 @@ function CustomizeItem({getValue, customText , textSize , customImage, customIma
                     <div className="row image-control">
                         <div className="col-md-6">
                             <Typography  gutterBottom>Width</Typography>
-                            <Slider max="100" aria-label="custom thumb label" defaultValue={20} color="primary" onChange={handleImageWidth}/>
+                            <Slider max="100" aria-label="custom thumb label" defaultValue={60} color="primary" onChange={handleImageWidth}/>
 
                         </div>
                         <div className="col-md-6">
                             <Typography  gutterBottom>Height</Typography>
-                            <Slider max="100" aria-label="custom thumb label" defaultValue={20} color="primary" onChange={handleImageHeight}/>
+                            <Slider max="100" aria-label="custom thumb label" defaultValue={60} color="primary" onChange={handleImageHeight}/>
                         </div>
                     </div>
                     <div className="row image-control justify-content-end">

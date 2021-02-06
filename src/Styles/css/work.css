@@ -82,11 +82,12 @@
     }
     .work-content-header{
         bottom: 40px;
-        width: 100%;
+        width: 90%;
     }
     .work-subtitle{
-        width: 100%;
-        bottom: -30%;
+        width: 90%;
+        bottom: -28%;
         padding-right: 10px;
+        text-align: justify;
     }
 }

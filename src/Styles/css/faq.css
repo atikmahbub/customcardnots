@@ -36,7 +36,7 @@
 }
 
 .faq-right{
-    margin-top: 6px;
+    margin-top: 0px;
 }
 
 .faq-question{
@@ -52,7 +52,7 @@
 }
 
 .q-text{
-    font-size: 4rem !important;
+    font-size: 3.5rem !important;
     color : #151516;
     font-weight: 900;
 }
@@ -64,6 +64,8 @@
     color: #e2dcdc;
     margin-left: 10px;
     font-weight: 400;
+    font-size: .9rem;
+    letter-spacing: 1px;
 }
 
 .faq-tick{

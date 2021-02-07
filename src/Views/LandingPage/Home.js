@@ -25,6 +25,18 @@ function Home() {
                                 <span className="landing-valid">Valid SAT 77/77</span>
                             </div>
                         </div>
+                        <div className="landing-card-container card-1">
+                            <div className="landing-chip"></div>
+                            <div className="landing-logo"> 
+                                <span><img src={YOUR}/></span> 
+                                <span><img src={LOGO} className="LOGO"/></span>  
+                                <span><img src={HERE} className="HERE"/></span>
+                            </div>
+                            <div className="landing-card-number">
+                                <span>7777 7777 7777 7777</span>
+                                <span className="landing-valid">Valid SAT 77/77</span>
+                            </div>
+                        </div>
                         <div className="home-button">
                             <Button component={ Link } to="/order" size="large" variant="outlined" color="default" >
                                 Customize Your Own Card

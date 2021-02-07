@@ -40,7 +40,7 @@ function Order() {
         <div className="row order-container">
             <div className="col-md-5">
                 <FrontCard data = {customCard} background = {activeBackground || M3} />
-                <BackCard data = {customCard} background = {activeBackground}/>
+                <BackCard data = {customCard} background = {activeBackground || M3}/>
             </div>
             <div className="col-md-7">
                 <ControlPanel getValue={handleValue} />

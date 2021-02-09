@@ -14,7 +14,7 @@
 }
 
 .control-options .MuiToggleButton-root.Mui-selected{
-    background: #EFE436 !important;
+    background: #ffbd1b !important;
     color: #333 !important;
 }
 
@@ -69,7 +69,7 @@
 
 
 .toggle-Image .MuiToggleButton-root.Mui-selected{
-    border: 3px solid #EFE436;
+    border: 3px solid #ffbd1b;
 }
 
 
@@ -101,7 +101,7 @@
 }
 
 .toggle-border .MuiToggleButton-root.Mui-selected{
-    border: 3px solid #EFE436;
+    border: 3px solid #ffbd1b;
 }
 
 

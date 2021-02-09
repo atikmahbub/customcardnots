@@ -1,25 +1,38 @@
 /* Startts */
-.home-first{
+.full-home{
+    position: relative; 
     height: 100vh;
-    border-radius:30% 70% 100% 0% / 0% 73% 27% 100% ;
-    background-color: #171717;
-    position: relative;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
 }
 
-.full-container{
+
+  
+
+.full-home::before{
+    content: "";
+    background-image: url('../../Assets/images/bg/main.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
-    right: 0;
-    top: 20%;
-    left: 45%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.9;
+    filter: blur(5px);
+    transform: scale(1.1);
 }
+
+
 
 .landing-card-container{
-    width: 80%;
+    width: 40%;
     min-height: 300px;
     border-radius: 20px;
     display: flex;
@@ -32,13 +45,15 @@
     transform: rotate(-7deg);
     background-image: url('../../Assets/images/card/m4.jpg') !important;
     background-size: cover;
+
 }
 
 .card-1{
     position: absolute;
     transform: rotate(0deg) !important;
-    background-image: url('../../Assets/images/card/m3.jpg') !important;
+    /* background-image: url('../../Assets/images/card/m2.jpg') !important; */
     background-size: cover;
+    background: linear-gradient(302deg, rgba(223,161,170,1) 0%, rgba(183,110,121,1) 59%) !important;
 }
 
 
@@ -46,7 +61,9 @@
 .landing-chip{
     width: 50px;
     height: 50px;
-    background-color: #FDFDFD;
+    background-image: url('../../Assets/images/card/chip.png');
+    background-size: cover;
+  
     border-radius: 10px;
     position: absolute;
     left: 70px;
@@ -56,30 +73,25 @@
 
 
 .landing-logo{
-    width: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
 
-.landing-logo span{
-    display: block;
-}
-
-.landing-logo span img{
-    height: auto;
-    width: 150px;
-    display: block;
-    margin: auto;
+.landing-logo div{
+    text-align: center;
+    font-size: 2.4rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 900;
 }
 
 
-.LOGO{
-    position: relative;
-    bottom: 15px;
-}
 
-.HERE{
-    position: relative;
-    bottom: 30px;
-}
+
 
 
 .landing-card-number{
@@ -104,11 +116,11 @@
 
 
 .home-button .MuiButton-label{
-    color: rgb(218, 213, 213) !important;
+    color: #ffffff !important;
 }
 
 .home-button .MuiButton-outlined{
-    border: 1px solid #9D972E !important;
+    border: 1px solid #ffbd1b !important;
 }
 
 
@@ -121,7 +133,7 @@
     height: 1px;
     width: 0px;
     content: '';
-    background: yellow;
+    background: #ffbd1b;
     animation: third 5500ms ease-in-out infinite;
   }
   
@@ -138,7 +150,7 @@
     
    100% {
       height: 1px;
-      width: 96%;
+      width: 94%;
       border-radius: 10px;
       
     }
@@ -150,23 +162,13 @@
   @media only screen and (max-width: 768px) {
     .landing-card-container{
         width: 90%;
-        position: absolute;
-       margin-left: 7px;
-    }
-    .full-container{
-        left: 0px;
-        right: 0;
-        padding: 20px;
-        display: block;
-        margin: auto;
-    }
 
+    }
     .home-button{
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 350px;
-        left: 20px;
+
     }
   }

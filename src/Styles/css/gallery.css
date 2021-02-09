@@ -11,7 +11,7 @@
 }
 
 .gallery-header:before {
-    background-color: #EFE436;
+    background-color: #ffbd1b;
     border-radius: 0.25rem;
     content: '';
     display: block;

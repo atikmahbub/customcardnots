@@ -10,7 +10,7 @@
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #EFE436;
+    background: #ffbd1b;
     height: 1px !important;
   }
 
@@ -25,7 +25,7 @@
   }
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background : #EFE436;
+    background : #ffbd1b;
   }
   
   /* Position and sizing of clickable cross button */
@@ -102,7 +102,7 @@
 .menu-bar{
   width: 15px;
   height: 2px;
-  background-color: #EFE436;
+  background-color: #ffbd1b;
   display: inline-block;
   margin-right: 15px;
   vertical-align: middle;

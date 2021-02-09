@@ -12,6 +12,6 @@ export const checkCardName = (value) =>{
         return 'Gold Brushed'
     }
     else{
-        return 'Matte Black'
+        return 'Rose Gold Brushed'
     }
 }

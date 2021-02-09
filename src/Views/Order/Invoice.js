@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: theme.palette.background.paper,
     },
     checkout : {
-      background : "#DAA520",
+      background : "#ffbd1b",
       color : "#fff",
       boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
       '&:hover': {

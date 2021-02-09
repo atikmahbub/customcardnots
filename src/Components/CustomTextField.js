@@ -5,13 +5,13 @@ import { makeStyles } from '@material-ui/core/styles'
 const useStyles = makeStyles({
     root: {
       "& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
-        borderColor: "#EFE436"
+        borderColor: "#ffbd1b"
       },
       "&:hover .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
-        borderColor: "#EFE436"
+        borderColor: "#ffbd1b"
       },
       "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-        borderColor: "#EFE436"
+        borderColor: "#ffbd1b"
       },
       "& .MuiInputLabel-outlined.Mui-focused": {
         color: "black"

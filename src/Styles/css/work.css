@@ -11,7 +11,7 @@
 }
 
 .work-header:before {
-    background-color: #EFE436;
+    background-color: #ffbd1b;
     border-radius: 0.25rem;
     content: '';
     display: block;
@@ -58,7 +58,8 @@
 
 .work-content-header{
     font-size: 1.5rem;
-    color: #EFE436;
+    color: #ffbd1b;
+    text-shadow: #BA9E5A;
     text-transform: uppercase;
 
 }

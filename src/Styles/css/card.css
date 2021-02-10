@@ -18,7 +18,7 @@
 
 .card-container img[src] {
    display: block;
-   cursor: pointer;
+   user-select: none;
  }
 
 .card-portion{

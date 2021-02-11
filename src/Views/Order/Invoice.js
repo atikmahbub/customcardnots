@@ -1,6 +1,8 @@
 import React from 'react'
 import { Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import AlertDialogSlide from './CheckoutModal'
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -19,12 +21,11 @@ const useStyles = makeStyles((theme) => ({
 
 function Invoice({data}) {
     const classes = useStyles()
-
+    const [open, setOpen] = React.useState(false);
     const [invoiceDetails, setInvoiceDetails] = React.useState({
         item : null,
         totalPrice : 100,
     })
-
 
     React.useEffect(()=>{
         if(data){
@@ -42,8 +43,18 @@ function Invoice({data}) {
             }
         }
     },[data])
+
+    const handleClickOpen = () => {
+      setOpen(true);
+    };
+  
+    const handleClose = () => {
+      setOpen(false);
+    };
+
     return (
         <>
+        <AlertDialogSlide open={open} handleClose={handleClose} data={invoiceDetails}/>
             {
             invoiceDetails.item &&
                 <div className="row  extra-fac">
@@ -59,7 +70,13 @@ function Invoice({data}) {
             <div className="row">
                 <div className="col-md-12 price">
                     <div>
-                        <Button variant="contained"  className={classes.checkout} size="large" fullWidth>
+                        <Button 
+                            variant="contained"  
+                            className={classes.checkout} 
+                            size="large" 
+                            fullWidth
+                            onClick={handleClickOpen}
+                            >
                             Checkout
                         </Button>
                         </div>

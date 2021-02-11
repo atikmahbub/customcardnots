@@ -7,9 +7,9 @@ function Home() {
     return (
         <>
             <div class="main">
-            <div class="d1"></div>
+            {/* <div class="d1"></div>
 
-            <div class="d3"></div>
+            <div class="d3"></div> */}
         
             <div className="cardNButton">
                 <div className="landing-card-container">
